@@ -9,7 +9,7 @@ namespace hw3103
     class CapitalCity
     {
         public int Id { get; set; }
-        public string Name { get; set; }
+        public string capName { get; set; }
         public int _NumCitizens { get; set; }
         public int Country_Id { get; set; }
 
@@ -20,7 +20,7 @@ namespace hw3103
 
         public override string ToString()
         {
-            return $"Capital City: {Name}, Id: {Id}, Number Of Citizens: {_NumCitizens}, Country: {Country_Id}";
+            return $"Capital City: {capName}, Id: {Id}, Number Of Citizens: {_NumCitizens}, Country: {Country_Id}";
         }
     }
 }

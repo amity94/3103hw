@@ -14,8 +14,10 @@ namespace hw3103
             DAO d = new DAO();
 
             d.GetCountryAndItsCapitalCityName(1);
-            
             d.GetCountryAndItsCapitalCityDetails(1);
+
+            d.GetCountryAndItsCapitalCityName("Israel");
+            d.GetCountryAndItsCapitalCityDetails("Israel");
         }
     }
 }
